@@ -20,6 +20,6 @@
         "rf_on": 4480259,
         "rf_off": 4480268,
         "pulselength": "",
-        "pin": ""
+        "protocol": "" 
     }]
 }
