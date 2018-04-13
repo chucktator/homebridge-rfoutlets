@@ -13,6 +13,7 @@ Supports *lights*, *switches*, and *fans*
 
 - Install homebridge-rfoutlets  
 `git clone https://github.com/chucktator/homebridge-rfoutlets.git`
+
 `npm install -g ./homebridge-rfoutlets`
 
 - Update your homebridge configuration
