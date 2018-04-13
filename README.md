@@ -12,8 +12,7 @@ Supports *lights*, *switches*, and *fans*
 `sudo npm install -g homebridge`
 
 - Install homebridge-rfoutlets  
-`git clone https://github.com/chucktator/homebridge-rfoutlets.git`
-
+`git clone https://github.com/chucktator/homebridge-rfoutlets.git`  
 `npm install -g ./homebridge-rfoutlets`
 
 - Update your homebridge configuration
