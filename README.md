@@ -15,7 +15,7 @@ Supports *lights*, *switches*, and *fans*
 `git clone https://github.com/chucktator/homebridge-rfoutlets.git`  
 `npm install -g ./homebridge-rfoutlets`
 
-- In order for the plugin to have access to the Pi's GPIOs, you must add your homebridge user to the appropriate group. This way no sudo access is necessary.
+- In order for the plugin to have access to the Pi's GPIOs, you must add your homebridge user to the appropriate group. This way no sudo access is necessary.  
 `sudo usermod -G gpio homebridge`
 
 - Update your homebridge configuration
