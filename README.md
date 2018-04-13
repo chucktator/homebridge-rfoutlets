@@ -12,7 +12,8 @@ Supports *lights*, *switches*, and *fans*
 `sudo npm install -g homebridge`
 
 - Install homebridge-rfoutlets  
-`sudo npm install -g homebridge-rfoutlets`
+`git clone https://github.com/chucktator/homebridge-rfoutlets.git`
+`npm install -g ./homebridge-rfoutlets`
 
 - Update your homebridge configuration
 
@@ -31,6 +32,6 @@ Supports *lights*, *switches*, and *fans*
 - `rf_on`: RF signal to turn the outlet on (**required**)
 - `rf_off`: RF signal to turn the outlet off (**required**)
 - `pulselength`: RF transmission pulse length (*optional*, defaults to 189)
-- `pin`: GPIO pin of the 433MHz transmitter (*optional*, defaults to 0)
+- `protocol`: The protocol of the controlled device (*optional*, defaults to 1)
 
 See `sample-config.json`
